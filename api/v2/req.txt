@@ -1,0 +1,38 @@
+Update
+-> Name
+-> phone
+-> Correspondence Address
+-> picture
+
+
+is_resident = 1 = staying in that codo then don't change
+              0 = not statying in that condo so should 
+                  be able to change this address
+
+
+type
+is_resident
+unit_id
+
+This to be deleted
+
+is_resident
+tenant is always 1 means staying
+owner could be 1
+primary owner should 1 or 0
+
+once signup with invitation then we need to create an entry in the
+residents table and then residnets_unit table
+
+------------
+manager/add_resident
+to check if unit, floor, block exist then get the id
+else we add them to units table
+
+
+++++++++++++++++++++++++++++++++
+
+
+
+
+
